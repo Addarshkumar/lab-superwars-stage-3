@@ -27,7 +27,7 @@ const initPlayers = (players) => {
 
     // Instead of forloop use Map method
     // Code here
-PLAYERS.map(function(e,index){
+players.map(function(e,index){
    const players={
     name:PLAYERS[index],
     image:`images/super-${index + 1}.png`,
